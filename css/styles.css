@@ -33,3 +33,8 @@
 .menu li {
     margin-right: 15px;
 }
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
