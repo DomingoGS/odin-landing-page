@@ -74,9 +74,11 @@ li a {
 .hero-content button {
     background-color: #3882F6;
     color: #fff;
+    font-weight: 600;
+    font-size: 16px;
     margin: 10px 0;
-    padding: 4px 20px;
-    border-radius: 5px;
+    padding: 9px 32px;
+    border-radius: 7px;
     border: none;
 }
 
@@ -151,4 +153,39 @@ li a {
     font-weight: 900;
     text-align: right;
     margin-right: 50px;
+}
+
+/* --Call to Action Component-- */
+
+.call-to-action {
+    padding: 100px 0;
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #3882F6;
+    color: #fff;
+    max-width: 1000px;
+    padding: 50px 110px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+}
+
+.banner-button {
+    background-color: #3882F6;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 9px 32px;
+    border-radius: 7px;
+    border: 2px solid #fff;
 }
