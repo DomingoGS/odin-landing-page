@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -122,4 +122,32 @@ li a {
     font-size: 18px;
     text-align: center;
     margin: 10px 0;
+}
+
+/* --Quote component-- */
+
+.quote {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 790px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.signature {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: right;
+    margin-right: 50px;
 }
