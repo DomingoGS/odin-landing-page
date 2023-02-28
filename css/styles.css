@@ -128,10 +128,11 @@ li a {
 
 .quote {
     background-color: #E5E7EB;
-    height: 500px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 120px 0 100px;
 }
 
 .quote-container {
