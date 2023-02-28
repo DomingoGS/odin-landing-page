@@ -92,3 +92,34 @@ li a {
 
 /* --Informtion component-- */
 
+.information-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin: 50px 0;
+    text-align: center;    
+}
+
+.information-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 170px;
+}
+
+.card .image {
+    height: 165px;
+    width: 165px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card .text {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+}
