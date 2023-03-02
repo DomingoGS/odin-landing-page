@@ -9,12 +9,12 @@
 .header {
     background-color: #1F2937;
     color: #fff;
-    height: 40px;
+    height: 70px;
 }
 
 .navbar {
-    height: 50px;
-    max-width: 960px;
+    height: 70px;
+    max-width: 1047px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@
 }
 
 .menu li {
-    margin-left: 18px;
+    margin-left: 29px;
 }
 
 li a {
@@ -49,21 +49,24 @@ li a {
 }
 
 .hero-container {
-    max-width: 960px;
+    max-width: 1047px;
     margin: auto;
     display: flex;
-    align-items: stretch;
-    padding: 140px 0;
+    padding: 100px 0 140px;
 }
 
 .hero-content {
     margin-right: 50px;
-    flex: 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 45%;
 }
 
 .hero-content h1  {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -75,10 +78,10 @@ li a {
 .hero-content button {
     background-color: #3882F6;
     color: #fff;
-    font-weight: 500;
-    font-size: 17px;
+    font-weight: 600;
+    font-size: 18px;
     margin: 10px 0;
-    padding: 9px 32px;
+    padding: 9px 36px;
     border-radius: 7px;
     border: none;
 }
@@ -87,17 +90,18 @@ li a {
     background-color: rgb(133, 135, 143);
     font-size: 18px;
     color: #F9FAF8;
+    height: 244px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 50%;
+    flex: 1 52%;
 }
 
 /* --Informtion component-- */
 
 .information-header {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #1F2937;
     margin: 50px 0;
     text-align: center;    
@@ -106,7 +110,7 @@ li a {
 .information-cards {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     margin-bottom: 120px;
 }
 
@@ -117,7 +121,7 @@ li a {
 .card .image {
     height: 160px;
     width: 160px;
-    border: 4px solid #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 15px;
 }
 
@@ -171,7 +175,7 @@ li a {
 .banner {
     background-color: #3882F6;
     color: #fff;
-    max-width: 1000px;
+    max-width: 2047px;
     padding: 50px 110px;
     border-radius: 10px;
     display: flex;
@@ -183,12 +187,14 @@ li a {
 .banner-button {
     background-color: #3882F6;
     color: #fff;
-    font-weight: 500;
-    font-size: 17px;
-    padding: 8px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 36px;
     border-radius: 7px;
     border: 2px solid #fff;
 }
+
+/* --Footer component-- */
 
 .footer {
     background-color: #1F2937;
